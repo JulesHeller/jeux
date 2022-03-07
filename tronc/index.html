@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jeu Tronc </title>
+
+    <link rel="stylesheet" href="styles/styleTel.css">
+    <link rel="stylesheet" href="styles/styleTab.css" media="screen and (min-width: 580px)">
+</head>
+
+<body>
+    <a href="../index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" id="back" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8l-4 4 4 4M16 12H9"/></svg>
+    </a>
+
+    <div id="cadre">
+        
+        <div id="film">
+            <p> CHOISIR UNE DIFFICULTE </p>
+
+            <div class="container">
+                <button class="bouton" id="d1"> FACILE </button>
+                <button class="bouton" id="d2"> MOYENNE </button>
+                <button class="bouton" id="d3"> DIFFICILE </button>
+            </div>
+        </div>
+
+        <div class="texte" id="vic"> VICTOIRE&nbsp! </div>
+        <div class="texte" id="def"> DEFAITE... </div>
+
+        <div class="herbe"></div>
+        <div class="ciel"></div>
+
+        <img src="bonhomme/torse.png" alt="Torse" id="torse">
+        <img src="bonhomme/jambe.png" alt="Jambe" id="jambe">
+        <img src="bonhomme/cuisse.png" alt="Cuisse" id="cuisse">
+        <img src="bonhomme/bras.png" alt="Bras" id="bras">
+        <img src="bonhomme/tronc.png" alt="Tronc" id="tronc">
+        <img src="bonhomme/kilt.png" alt="Kilt" id="kilt">
+
+        <div class="slider">
+            <div class="winZone"></div>
+            <div class="barre"></div>
+        </div>
+    </div>
+
+    <button id="lancerTronc"> LANCER </button>
+    <button id="recommencer"> RECOMMENCER </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

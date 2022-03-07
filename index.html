@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jeux </title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            gap: 100px;
+        }
+
+        img {
+            height: 200px;
+            width: 200px;
+
+            transform: scale(1);
+            filter: grayscale();
+
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+            filter: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="tronc/index.html">
+        <img src="img/bucheron.jpg" alt="Jeu de lancer de tronc">
+    </a>
+    <a href="hockey/index.html">
+        <img src="img/hockey.jpg" alt="Jeu de hockey">
+    </a>
+</body>
+</html>
